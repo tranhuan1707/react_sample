@@ -1,0 +1,12 @@
+.loading {
+    text-align: center;
+    font-size: 30px;
+    color: #e97e03
+}
+.nodata {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #414141;
+    margin-bottom: 0;
+}

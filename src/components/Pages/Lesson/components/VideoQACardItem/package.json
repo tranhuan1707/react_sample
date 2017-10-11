@@ -1,0 +1,6 @@
+{
+  "name": "VideoQACardItem",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./VideoQACardItem.js"
+}

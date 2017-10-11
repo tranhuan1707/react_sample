@@ -1,0 +1,126 @@
+.report_issue {
+    position: fixed;
+    bottom: 10px;
+    left: 5px;
+    z-index: 100;
+}
+.report_issue .icon_report {
+    display: inline-block;
+    cursor: pointer;
+    width: 64px;
+    height: 64px;
+    background-color: #e97e03;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 64px;
+    color: #fff;
+    font-size: 24px;
+    margin-left: 10px;
+}
+.report_form {
+    margin-bottom: 10px;
+    width: 220px;
+    margin-left: 10px;
+    background: #fcfcfc;
+    padding: 10px;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+}
+.report_form::before, 
+.report_form::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+}
+.err_msg {
+    color: #db0000;
+    font-size: 12px;
+    display: block;
+    margin-top: -5px;
+}
+.report_form::before {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 9px 10px 0 10px;
+    border-color: #ffffff transparent transparent transparent;
+    left: 22px;
+    z-index: 2;
+    bottom: -9px
+}
+.report_form::after {
+    z-index: 1;
+    left: 20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 12px 0 12px;
+    border-color: #ddd transparent transparent transparent;
+}
+.ipt_link {
+    width: 100%;
+    outline: none;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    height: 32px;
+    line-height: 32px;
+    transition: all .3s ease;
+    background-color: #fff;
+}
+.ipt_link[disabled] {
+    background-color: #f9f9f9;
+}
+.ipt_link:focus,
+.txt_msg:focus {
+    border-color: #999;
+}
+.txt_msg {
+    width: 100%;
+    outline: none;
+    border: 1px solid #ddd;
+    padding: 10px;
+    resize: none;
+    height: 60px;
+    background-color: #fff;
+}
+.report_form label {
+    margin-bottom: 0;
+}
+.btn_report {
+    background-color: #e97e03;
+    color: #fff;
+    outline: none;
+}
+.btn_report:hover {
+    background-color: #fdc788;
+    color: #fff;
+}    
+.btn_report:focus {
+    color: #fff;
+}
+@media (max-width: 767px) {
+    .report_issue .icon_report {
+        width: 48px;
+        height: 48px;
+        line-height: 48px;
+        -webkit-box-shadow: 0 4px 5px -1px rgba(0,0,0,0.5);
+        -moz-box-shadow: 0 4px 5px -1px rgba(0,0,0,0.5);
+        box-shadow: 0 4px 5px -1px rgba(0,0,0,0.5);
+    }
+    .report_issue {
+        bottom: 20px;
+    }
+    .report_form::before {
+        left: 12px;
+    }
+    .report_form::after {
+        left: 10px;
+    } 
+}

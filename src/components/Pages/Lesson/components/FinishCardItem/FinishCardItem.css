@@ -1,0 +1,65 @@
+.result_circle {
+    position: relative;
+    display: block;
+    height: 140px;
+    width: 140px;
+    background-color: #e97e03;
+    padding-top: 1.5625rem;
+    border-radius: 50%;
+    margin: 30px auto;
+}
+.result_star {
+    position: absolute;
+    top: -40px;
+    left: -36px;
+    width: 200px;
+    height: 145px;
+}
+.result_star .icon {
+    fill: #3ed5be;
+}
+.icon svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    fill: inherit;
+}
+.result_status .score {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+}
+.result_status .score span {
+    font-size: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    display: block;
+}
+.result_title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.result_subtitle {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.button_wrap {
+    text-align: center;
+}
+.button_wrap span {
+    color: #fff;
+    background-color: #3ed5be;
+    padding: 10px 40px;
+    font-size: 20px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -o-border-radius: 50px;
+    border-radius: 50px;
+}
+.button_wrap span:hover {
+    color: #fff;
+    background-color: #95f9ea;
+}

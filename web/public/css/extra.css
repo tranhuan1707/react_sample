@@ -1,0 +1,75 @@
+@charset 'UTF-8';
+/**
+ * Extra Css file
+ */
+
+
+/* 404 PAGE */
+
+.notfound.login-form {
+    padding: 0;
+}
+.notfound.login-form .inner {
+    padding: 60px 100px;
+
+}
+
+/*
+ * CARD ITEM
+ */
+
+.conv-itm.conver_active .conver-ct {
+    background-color: #3ed5be;
+    color: #fff;
+}
+.conv-itm.conver_active .conver-name {
+    color: #fff;
+}
+/* .conv-itm.conver_active .conver-ct::before {
+    border-color: transparent transparent #3ed5be transparent
+}
+.conv-itm.conver_active .conver_right .conver-ct::before {
+    border-color: transparent transparent #3ed5be transparent
+} */
+.conv-itm.conver_active .conver_sound{
+    animation: run_light 1s infinite;
+    color: #fff;
+}
+.conv-itm.conver_active .conver_img_wrap::before {
+    display: inline-block;
+}
+
+.notfound .sub-title {
+    font-size: 64px;
+    text-align: center;
+    font-weight: bold;
+    color: #e97e03;
+}
+
+/* LESSON PAGE - NO LEVEL */
+.no-level .header-nav {
+    display: none;
+}
+
+.no-level .logo-wrap {
+    height: 41px;
+}
+
+.no-level .logo-wrap a {
+    height: 41px;
+    text-align: center;
+}
+.no-level .mnav-ct {
+    top: 41px;
+}
+.no-level .logo-wrap a img {
+    width: auto;
+    height: 98%;
+    vertical-align: top;
+}
+.no-level  .header-wrap, .no-level .header {
+     height: 41px;
+}
+.no-level  .left-sidebar {
+    top: 60px;
+}

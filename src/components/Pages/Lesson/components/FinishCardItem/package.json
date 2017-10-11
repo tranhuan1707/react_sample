@@ -1,0 +1,6 @@
+{
+  "name": "FinishCardItem",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./FinishCardItem.js"
+}

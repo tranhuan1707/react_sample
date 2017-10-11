@@ -1,0 +1,6 @@
+{
+  logout {
+    id
+    username
+  }
+}

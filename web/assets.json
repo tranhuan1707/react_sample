@@ -1,0 +1,11 @@
+{
+  "graphql-tag": {
+    "js": "/assets/graphql-tag.bf3d3b0d.chunk.js"
+  },
+  "client": {
+    "js": "/assets/client.d53ae1c0.js"
+  },
+  "vendor": {
+    "js": "/assets/vendor.4ae73c48.js"
+  }
+}

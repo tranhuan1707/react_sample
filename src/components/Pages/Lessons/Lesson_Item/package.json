@@ -1,0 +1,6 @@
+{
+  "name": "Lesson_Item",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Lesson_Item.js"
+}

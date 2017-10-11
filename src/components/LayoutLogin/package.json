@@ -1,0 +1,6 @@
+{
+  "name": "LayoutLogin",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./LayoutLogin.js"
+}
